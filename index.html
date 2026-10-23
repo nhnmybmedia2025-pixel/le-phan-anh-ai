@@ -1,0 +1,790 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Lê Đình Phan Anh — Tư vấn các giải pháp AI cho doanh nghiệp, đào tạo từ cơ bản đến nâng cao và triển khai hệ thống AI Agent tự động hóa 24/7.">
+  <meta name="theme-color" content="#030712">
+  <title>Lê Đình Phan Anh — Tư vấn Ứng dụng AI &amp; AI Agent Tự động hóa Doanh nghiệp</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script type="module" src="assets/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Bỏ qua điều hướng</a>
+
+  <div class="cruip-page-illustration" aria-hidden="true">
+    <div class="cruip-glow cruip-glow-top"></div>
+    <div class="cruip-glow cruip-glow-left"></div>
+    <div class="cruip-glow cruip-glow-right"></div>
+  </div>
+
+  <header class="site-header" data-header>
+    <div class="container header-inner">
+      <a class="brand" href="#hero" aria-label="Lê Đình Phan Anh — về đầu trang">
+        <span class="brand-mark" aria-hidden="true">
+          <img class="brand-avatar" src="assets/le-phan-anh.jpg" alt="" width="38" height="38">
+        </span>
+        <span class="brand-copy">
+          <strong>LÊ ĐÌNH PHAN ANH</strong>
+          <small>TƯ VẤN &amp; TRIỂN KHAI AI</small>
+        </span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span></span><span></span><span></span><span class="sr-only">Mở menu</span>
+      </button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Điều hướng chính">
+        <a href="#solutions">Giải pháp</a>
+        <a href="#architecture">Lộ trình AI</a>
+        <a href="#process">Quy trình</a>
+        <a href="#case-studies">Dự án</a>
+        <a href="#about">Giới thiệu</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <div class="header-actions">
+        <a class="text-link" data-contact="zalo">Nhắn Zalo</a>
+        <a class="button button-small button-primary" data-contact="booking">Đặt lịch tư vấn AI</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- 1. HERO: Centered Single-Column Cruip Open PRO Layout -->
+    <section class="hero" id="hero">
+      <div class="hero-bg-fx" aria-hidden="true">
+        <div class="hero-grid-plane"></div>
+        <div class="hero-orb hero-orb-1"></div>
+        <div class="hero-orb hero-orb-2"></div>
+        <div class="hero-orb hero-orb-3"></div>
+        <div class="hero-beams">
+          <span class="hero-beam beam-h1"></span>
+          <span class="hero-beam beam-h2"></span>
+          <span class="hero-beam beam-h3"></span>
+          <span class="hero-beam beam-v1"></span>
+          <span class="hero-beam beam-v2"></span>
+        </div>
+        <canvas class="hero-canvas" data-hero-canvas></canvas>
+      </div>
+      <div class="container hero-centered" data-reveal>
+        <div class="hero-badge">
+          <img class="hero-badge-avatar" src="assets/le-phan-anh.jpg" alt="" width="24" height="24" aria-hidden="true">
+          <span class="status-dot"></span>
+          <span>LÊ ĐÌNH PHAN ANH</span>
+          <code class="hero-badge-tag">TƯ VẤN &amp; TRIỂN KHAI AI DOANH NGHIỆP</code>
+        </div>
+
+        <h1>Tư vấn các giải pháp AI cho doanh nghiệp &amp; <span>AI Agent tự động hóa</span></h1>
+        <p class="hero-sub">Đồng hành từ đào tạo đội ngũ dùng AI cơ bản, chuẩn hóa quy trình nâng cao đến xây dựng hệ thống AI Agent tự làm việc 24/7.</p>
+
+        <div class="hero-cta-group">
+          <a class="button button-primary button-large" data-contact="booking">Đặt lịch tư vấn AI</a>
+          <a class="button button-secondary button-large" data-contact="zalo">Nhắn Zalo trực tiếp</a>
+        </div>
+
+        <div class="hero-trust-strip" aria-label="Chỉ số thực chiến">
+          <div class="trust-stat">
+            <strong>EVN · EVNHANOI · Elite PR</strong>
+            <span>Đào tạo AI thực chiến</span>
+          </div>
+          <div class="trust-divider" aria-hidden="true"></div>
+          <div class="trust-stat">
+            <strong>10+ AI Agent 24/7</strong>
+            <span>Tự động hóa vận hành</span>
+          </div>
+          <div class="trust-divider" aria-hidden="true"></div>
+          <div class="trust-stat">
+            <strong>Google Certified</strong>
+            <span>Cử nhân Giỏi ĐH FPT</span>
+          </div>
+        </div>
+
+        <!-- Compact Interactive AI Hub Console (No heavy blueprint wall) -->
+        <div class="cruip-console" data-system-map data-spotlight aria-label="Bảng điều khiển lộ trình 3 cấp độ áp dụng AI">
+          <div class="console-tabs" role="group" aria-label="Chọn cấp độ áp dụng AI">
+            <button type="button" class="console-tab is-active" data-flow-trigger="sales" aria-pressed="true">
+              <span class="tab-num">01</span>
+              <span class="tab-label">Ứng dụng AI Cơ bản</span>
+            </button>
+            <button type="button" class="console-tab" data-flow-trigger="marketing" aria-pressed="false">
+              <span class="tab-num">02</span>
+              <span class="tab-label">Chuẩn hóa Nâng cao</span>
+            </button>
+            <button type="button" class="console-tab" data-flow-trigger="operations" aria-pressed="false">
+              <span class="tab-num">03</span>
+              <span class="tab-label">AI Agent Tự động 24/7</span>
+            </button>
+          </div>
+
+          <div class="console-stage">
+            <div class="console-nodes">
+              <div class="console-node is-active" data-source-node="crm">
+                <small>ĐẦU VÀO 01</small>
+                <strong>Nhân sự &amp; Ý tưởng</strong>
+              </div>
+              <div class="console-node" data-source-node="docs">
+                <small>ĐẦU VÀO 02</small>
+                <strong>Quy trình &amp; Tài liệu</strong>
+              </div>
+              <div class="console-node" data-source-node="apps">
+                <small>ĐẦU VÀO 03</small>
+                <strong>Zalo · Fanpage · CRM</strong>
+              </div>
+            </div>
+
+            <div class="console-hub">
+              <div class="hub-orb">
+                <span>AI HUB</span>
+              </div>
+            </div>
+
+            <div class="console-output" aria-live="polite">
+              <span class="console-badge" data-trace-code>CẤP ĐỘ 01 · ỨNG DỤNG AI CƠ BẢN</span>
+              <p data-trace-text>Hướng dẫn đội ngũ sử dụng thành thạo công cụ AI để soạn thảo, tổng hợp thông tin và xử lý việc hàng ngày nhanh gấp nhiều lần.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. PAIN POINTS: Clean 3-Column Feature Strip (Cruip Features Style) -->
+    <section class="section" id="pain-points">
+      <div class="container">
+        <div class="section-heading centered" data-reveal>
+          <p class="eyebrow">ĐIỂM NGHẼN THỰC TẾ</p>
+          <h2>Vì sao doanh nghiệp áp dụng AI chưa hiệu quả?</h2>
+        </div>
+
+        <div class="cruip-feature-grid" data-reveal>
+          <article class="cruip-feature-item" data-spotlight>
+            <div class="feature-icon">01</div>
+            <h3>Nhân sự dùng AI tự phát</h3>
+            <p>Mới dừng ở hỏi đáp rời rạc, chưa gắn vào quy trình chuyên môn của từng phòng ban.</p>
+          </article>
+          <article class="cruip-feature-item" data-spotlight>
+            <div class="feature-icon">02</div>
+            <h3>Quá tải việc lặp đi lặp lại</h3>
+            <p>Tốn hàng giờ nhập liệu, trả lời tin nhắn khách hàng và tổng hợp báo cáo thủ công.</p>
+          </article>
+          <article class="cruip-feature-item" data-spotlight>
+            <div class="feature-icon">03</div>
+            <h3>Thiếu lộ trình bài bản</h3>
+            <p>Chưa rõ khâu nào nên đào tạo con người dùng AI, khâu nào nên giao cho AI Agent tự làm.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. SOLUTIONS: Cruip 3-Card Spotlight Workflows + 2 Compact Cards -->
+    <section class="section" id="solutions">
+      <div class="container">
+        <div class="section-heading centered" data-reveal>
+          <p class="eyebrow">GIẢI PHÁP TRỌNG TÂM</p>
+          <h2>Từ đào tạo đội ngũ đến hệ thống AI Agent 24/7</h2>
+          <p>Thiết kế sát với nhu cầu thực tế của từng doanh nghiệp — ngắn gọn, dễ dùng và đo lường được ngay.</p>
+        </div>
+
+        <div class="cruip-workflows-grid" data-reveal>
+          <article class="workflow-card" data-spotlight>
+            <div class="workflow-visual">
+              <span class="workflow-orb">AI EDU</span>
+              <div class="workflow-chips">
+                <span>Prompt chuẩn</span>
+                <span>Tài liệu</span>
+                <span>Báo cáo</span>
+              </div>
+            </div>
+            <div class="workflow-body">
+              <span class="workflow-pill">01 · Đào tạo AI</span>
+              <h3>Đào tạo AI từ cơ bản đến nâng cao</h3>
+              <p>Huấn luyện nhân sự ứng dụng AI vào đúng công việc hàng ngày, rút ngắn thời gian xử lý tác vụ.</p>
+            </div>
+          </article>
+
+          <article class="workflow-card featured" data-spotlight>
+            <div class="workflow-visual">
+              <span class="workflow-orb">AGENT 24/7</span>
+              <div class="workflow-chips">
+                <span>Zalo OA</span>
+                <span>Fanpage</span>
+                <span>CRM</span>
+              </div>
+            </div>
+            <div class="workflow-body">
+              <span class="workflow-pill">02 · Tự động hóa Bán hàng</span>
+              <h3>AI Agent Chăm sóc khách hàng 24/7</h3>
+              <p>Tự động phản hồi khách trong vài giây trên Zalo &amp; Fanpage, phân loại nhu cầu và báo ngay cho Sale.</p>
+            </div>
+          </article>
+
+          <article class="workflow-card" data-spotlight>
+            <div class="workflow-visual">
+              <span class="workflow-orb">AI VIDEO</span>
+              <div class="workflow-chips">
+                <span>Kịch bản</span>
+                <span>Video AI</span>
+                <span>Đa kênh</span>
+              </div>
+            </div>
+            <div class="workflow-body">
+              <span class="workflow-pill">03 · Nội dung &amp; Video</span>
+              <h3>Sản xuất Video AI &amp; Tự động Nội dung</h3>
+              <p>Tối ưu tới 70% quy trình lên kịch bản, dựng video AI và đăng tải đa kênh Facebook, TikTok, Reels.</p>
+            </div>
+          </article>
+
+          <article class="workflow-card compact" data-spotlight>
+            <div class="workflow-body">
+              <span class="workflow-pill">04 · Báo cáo &amp; Vận hành</span>
+              <h3>AI Agent Theo dõi Quảng cáo &amp; Nhắc việc</h3>
+              <p>Tự động tổng hợp chi phí Ads, doanh thu và gửi báo cáo sáng/tối về điện thoại quản lý.</p>
+            </div>
+          </article>
+
+          <article class="workflow-card compact" data-spotlight>
+            <div class="workflow-body">
+              <span class="workflow-pill">05 · Tri thức Nội bộ</span>
+              <h3>Trợ lý AI Tra cứu Quy trình Nội bộ</h3>
+              <p>Đóng gói SOP, chính sách và bảng giá thành trợ lý nội bộ để nhân sự mới tra cứu trong vài giây.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. ARCHITECTURE: 4-Stage Roadmap Strip -->
+    <section class="section" id="architecture">
+      <div class="container">
+        <div class="section-heading centered" data-reveal>
+          <p class="eyebrow">LỘ TRÌNH 4 CẤP ĐỘ</p>
+          <h2>Đưa AI vào doanh nghiệp từng bước vững chắc</h2>
+        </div>
+
+        <div class="roadmap-grid" data-reveal>
+          <article class="roadmap-step" data-spotlight>
+            <span class="step-badge">CẤP ĐỘ 01</span>
+            <h3>Ứng dụng AI Cơ bản</h3>
+            <p>Nhân sự thành thạo AI để soạn thảo, dịch thuật và tìm kiếm thông tin nhanh.</p>
+          </article>
+          <article class="roadmap-step" data-spotlight>
+            <span class="step-badge">CẤP ĐỘ 02</span>
+            <h3>Chuẩn hóa Phòng ban</h3>
+            <p>Xây dựng bộ câu lệnh mẫu và trợ lý tri thức riêng cho Sale, Marketing, HR.</p>
+          </article>
+          <article class="roadmap-step" data-spotlight>
+            <span class="step-badge">CẤP ĐỘ 03</span>
+            <h3>Kết nối Công cụ</h3>
+            <p>Liên kết AI với Zalo, Fanpage, Google Sheet để tự động luân chuyển dữ liệu.</p>
+          </article>
+          <article class="roadmap-step" data-spotlight>
+            <span class="step-badge">CẤP ĐỘ 04</span>
+            <h3>AI Agent Tự vận hành</h3>
+            <p>Hệ thống nhân sự AI làm việc 24/7 và báo cáo kết quả cho người quản lý duyệt.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. SEGMENTS: Two Clean Packages -->
+    <section class="section" id="segments">
+      <div class="container">
+        <div class="section-heading centered" data-reveal>
+          <p class="eyebrow">GÓI ĐỒNG HÀNH</p>
+          <h2>Lựa chọn phù hợp với quy mô doanh nghiệp</h2>
+        </div>
+
+        <div class="package-grid" data-reveal>
+          <article class="package-card" data-spotlight>
+            <div class="package-top">
+              <span class="package-tag">SME &amp; ĐỘI KINH DOANH</span>
+              <small>Triển khai nhanh · 2–4 tuần</small>
+            </div>
+            <h3>Đào tạo Thực hành &amp; AI Agent Bán hàng</h3>
+            <ul>
+              <li>Đào tạo đội ngũ dùng AI làm nội dung &amp; xử lý việc hàng ngày</li>
+              <li>Triển khai AI Agent trực Zalo &amp; Fanpage 24/7</li>
+              <li>Tự động hóa báo cáo kết quả kinh doanh cuối ngày</li>
+            </ul>
+            <div class="package-action">
+              <a class="button button-secondary" data-contact="zalo">Nhận tư vấn gói SME</a>
+            </div>
+          </article>
+
+          <article class="package-card featured" data-spotlight>
+            <div class="package-top">
+              <span class="package-tag">DOANH NGHIỆP &amp; TẬP ĐOÀN</span>
+              <small>Hệ thống đồng bộ · Bảo mật</small>
+            </div>
+            <h3>Đào tạo Toàn diện &amp; Hệ thống AI Agent Riêng</h3>
+            <ul>
+              <li>Huấn luyện AI từ cơ bản đến nâng cao theo từng phòng ban</li>
+              <li>Xây dựng mạng lưới 10+ AI Agent tự động hóa quy trình đặc thù</li>
+              <li>Thiết lập Trợ lý Tri thức nội bộ phân quyền riêng biệt</li>
+            </ul>
+            <div class="package-action">
+              <a class="button button-primary" data-contact="booking">Đặt lịch khảo sát 1:1</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. PROCESS: Horizontal 4-Step Cards -->
+    <section class="section" id="process">
+      <div class="container">
+        <div class="section-heading centered" data-reveal>
+          <p class="eyebrow">QUY TRÌNH TRIỂN KHAI</p>
+          <h2>4 bước đồng hành tinh gọn</h2>
+        </div>
+
+        <ol class="process-steps" data-reveal>
+          <li data-spotlight>
+            <span class="process-num">01</span>
+            <h3>Khảo sát &amp; Định hướng</h3>
+            <p>Rà soát các khâu tốn thời gian nhất và chọn lộ trình AI đem lại hiệu quả nhanh nhất.</p>
+          </li>
+          <li data-spotlight>
+            <span class="process-num">02</span>
+            <h3>Đào tạo Đội ngũ</h3>
+            <p>Hướng dẫn nhân sự ứng dụng AI thực chiến trên chính công việc và tài liệu của công ty.</p>
+          </li>
+          <li data-spotlight>
+            <span class="process-num">03</span>
+            <h3>Xây dựng AI Agent</h3>
+            <p>Thiết lập và kết nối AI Agent vào Zalo, Fanpage, bảng tính để tự động chạy công việc.</p>
+          </li>
+          <li data-spotlight>
+            <span class="process-num">04</span>
+            <h3>Bàn giao &amp; Tối ưu</h3>
+            <p>Chuyển giao toàn bộ hệ thống, tài liệu hướng dẫn và đồng hành đo lường hiệu quả.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- 7. USE CASES: Interactive Filter Grid -->
+    <section class="section" id="use-cases">
+      <div class="container">
+        <div class="section-heading centered" data-reveal>
+          <p class="eyebrow">ỨNG DỤNG THỰC TẾ</p>
+          <h2>Các tác vụ AI xử lý tự động mỗi ngày</h2>
+        </div>
+
+        <div class="use-case-filters" role="group" aria-label="Lọc ứng dụng AI theo bộ phận" data-reveal>
+          <button type="button" class="filter-chip is-active" data-usecase-filter="all" aria-pressed="true">Tất cả</button>
+          <button type="button" class="filter-chip" data-usecase-filter="sales" aria-pressed="false">Bán hàng &amp; CSKH</button>
+          <button type="button" class="filter-chip" data-usecase-filter="marketing" aria-pressed="false">Nội dung &amp; Video AI</button>
+          <button type="button" class="filter-chip" data-usecase-filter="operations" aria-pressed="false">Báo cáo &amp; Nội bộ</button>
+        </div>
+
+        <div class="use-case-bento" data-reveal>
+          <article data-usecase-category="sales" data-spotlight>
+            <span>BÁN HÀNG</span>
+            <h3>Đón khách &amp; Chăm sóc Zalo</h3>
+            <div class="mini-flow"><i>Khách nhắn</i><b>AI Tư vấn</b><i>Báo Sale</i></div>
+          </article>
+          <article data-usecase-category="sales" data-spotlight>
+            <span>CSKH 24/7</span>
+            <h3>Trực Fanpage &amp; Đặt lịch hẹn</h3>
+            <div class="mini-flow"><i>Inbox</i><b>AI Giải đáp</b><i>Chốt lịch</i></div>
+          </article>
+          <article data-usecase-category="marketing" data-spotlight>
+            <span>MARKETING</span>
+            <h3>Viết bài &amp; Lên kịch bản đa kênh</h3>
+            <div class="mini-flow"><i>Chủ đề</i><b>AI Soạn bài</b><i>Đăng kênh</i></div>
+          </article>
+          <article data-usecase-category="marketing" data-spotlight>
+            <span>VIDEO AI</span>
+            <h3>Sản xuất Video AI ngắn</h3>
+            <div class="mini-flow"><i>Kịch bản</i><b>AI Dựng video</b><i>TikTok/Reels</i></div>
+          </article>
+          <article data-usecase-category="operations" data-spotlight>
+            <span>QUẢN LÝ</span>
+            <h3>Tổng hợp Báo cáo Quảng cáo</h3>
+            <div class="mini-flow"><i>Số liệu Ads</i><b>AI Phân tích</b><i>Báo cáo</i></div>
+          </article>
+          <article data-usecase-category="operations" data-spotlight>
+            <span>NỘI BỘ</span>
+            <h3>Trợ lý Tra cứu Quy trình SOP</h3>
+            <div class="mini-flow"><i>Câu hỏi</i><b>AI Tra cứu</b><i>Đáp án chuẩn</i></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. CASE STUDIES: 3 Visual AI Projects -->
+    <section class="section" id="case-studies">
+      <div class="container">
+        <div class="section-heading centered" data-reveal>
+          <p class="eyebrow">DỰ ÁN TIÊU BIỂU</p>
+          <h2>Hiệu quả thực tế từ các dự án AI gần đây</h2>
+        </div>
+
+        <div class="project-grid" data-reveal>
+          <article class="project-card" data-spotlight>
+            <div class="project-thumb project-graphic">
+              <div class="graphic-badge">MYBIS AI HUB</div>
+              <strong>Hệ thống 10+ AI Agent</strong>
+              <small>Chừa khung cập nhật ảnh thực tế</small>
+              <span class="project-metric">10+ AI Agent vận hành 24/7</span>
+            </div>
+            <div class="project-body">
+              <small>MYB MEDIA · HỆ SINH THÁI MYBIS</small>
+              <h3>Hệ thống Nhân sự AI &amp; Đào tạo AI Doanh nghiệp</h3>
+              <p>Xây dựng mạng lưới hơn 10 AI Agent tự động hóa vận hành và trực tiếp đào tạo AI cho EVN, EVNHANOI, Elite PR School.</p>
+            </div>
+          </article>
+
+          <article class="project-card" data-spotlight>
+            <figure class="project-thumb">
+              <img src="assets/projects/binhquan_1.jpg" alt="Bình Quân — Sản xuất Video AI" width="800" height="450" loading="lazy">
+              <span class="project-metric">6.000+ KH/tháng · Video 1M+ view</span>
+            </figure>
+            <div class="project-body">
+              <small>BÌNH QUÂN · SẢN XUẤT VIDEO AI</small>
+              <h3>Sản xuất Video AI triệu view &amp; Thu hút khách hàng</h3>
+              <p>Xây dựng 15 kênh nội dung và ứng dụng quy trình Sản xuất Video AI tạo hàng loạt video đạt trên 1 triệu lượt xem.</p>
+            </div>
+          </article>
+
+          <article class="project-card" data-spotlight>
+            <div class="project-thumb project-graphic">
+              <div class="graphic-badge">AI VIDEO STUDIO</div>
+              <strong>Ebisu Kaze Japan</strong>
+              <small>Chừa khung cập nhật ảnh thực tế</small>
+              <span class="project-metric">Tối ưu cho 30+ nhân sự</span>
+            </div>
+            <div class="project-body">
+              <small>EBISU KAZE JAPAN · SẢN XUẤT VIDEO AI</small>
+              <h3>Sản xuất Video AI &amp; Vận hành nội dung đa kênh</h3>
+              <p>Ứng dụng quy trình Sản xuất Video AI phục vụ thương mại điện tử quốc tế và điều phối hiệu suất cho đội ngũ hơn 30 nhân sự.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. ABOUT: Original Content Preserved -->
+    <section class="section about" id="about">
+      <div class="container about-layout">
+        <div class="portrait-placeholder portrait-card-real" data-reveal data-spotlight>
+          <div class="portrait-grid" aria-hidden="true"></div>
+          <div class="portrait-topline" aria-hidden="true">
+            <span>HỒ SƠ CÁ NHÂN</span>
+            <span>TƯ VẤN &amp; TRIỂN KHAI AI</span>
+          </div>
+          <figure class="portrait-figure">
+            <img
+              class="portrait-photo"
+              src="assets/le-phan-anh.jpg"
+              alt="Chân dung Lê Đình Phan Anh — Tư vấn và Triển khai AI Doanh nghiệp"
+              width="682"
+              height="1024"
+            >
+          </figure>
+          <div class="portrait-badges">
+            <span>Gemini Certified Educator (Google)</span>
+            <span>Cử nhân Giỏi — Đại học FPT Hà Nội</span>
+            <span>Leader AI @ MYB Media · Founder Mybis</span>
+          </div>
+          <div class="portrait-caption">
+            <span>LÊ ĐÌNH PHAN ANH</span>
+            <small>TƯ VẤN &amp; TRIỂN KHAI AI · CẦU GIẤY, HÀ NỘI</small>
+          </div>
+        </div>
+        <div class="about-content" data-reveal>
+          <p class="eyebrow">NGƯỜI ĐỒNG HÀNH CÙNG DOANH NGHIỆP</p>
+          <h2>Lê Đình Phan Anh</h2>
+          <p class="about-role">Tư vấn &amp; Triển khai AI Doanh nghiệp · Leader AI tại MYB Media · Nhà sáng lập Hệ thống Trợ lý AI Mybis</p>
+          <p>Tốt nghiệp Cử nhân loại Giỏi chuyên ngành Quản trị Truyền thông Đa phương tiện &amp; Marketing tại Đại học FPT Hà Nội và sở hữu chứng chỉ Giảng viên AI từ Google (Gemini Certified Educator). Phan Anh kết hợp tư duy chiến lược truyền thông — tăng trưởng với năng lực tự động hóa (giúp tối ưu tới 70% quy trình sản xuất) để đồng hành cùng doanh nghiệp áp dụng AI dễ hiểu, thực tế và đo lường được kết quả.</p>
+          <div class="principles">
+            <div><span>01</span><strong>Định hướng rõ ràng từ cơ bản đến nâng cao — Giúp doanh nghiệp biết chính xác nên bắt đầu từ đâu và dùng công cụ nào</strong></div>
+            <div><span>02</span><strong>Kinh nghiệm đào tạo &amp; triển khai thực tế — Đồng hành huấn luyện AI tại EVN, EVNHANOI, Elite PR School và các dự án quốc tế</strong></div>
+            <div><span>03</span><strong>Xây dựng AI Agent làm việc thật — Thiết kế hệ thống trợ lý AI tự động hóa công việc 24/7 và bàn giao để đội ngũ dễ dàng làm chủ</strong></div>
+          </div>
+          <div class="credential-placeholder" data-spotlight>
+            <div class="credential-header">
+              <span>CHỨNG CHỈ QUỐC TẾ &amp; LĨNH VỰC CHUYÊN MÔN</span>
+              <i>✓ ĐÃ XÁC MINH</i>
+            </div>
+            <div class="credential-grid">
+              <div class="credential-item featured-cert">
+                <div class="cert-mark" aria-hidden="true">AI</div>
+                <div class="cert-body">
+                  <small>GOOGLE FOR EDUCATION · 2025 – 2028</small>
+                  <strong>Gemini Certified Educator</strong>
+                  <p>Chứng chỉ Quốc tế về Đào tạo &amp; Ứng dụng Trí tuệ Nhân tạo từ Google</p>
+                </div>
+              </div>
+              <div class="credential-item">
+                <small>COURSERA · QUẢN TRỊ DỰ ÁN</small>
+                <strong>Project Management Principles &amp; Practices</strong>
+              </div>
+              <div class="credential-item">
+                <small>COURSERA · THIẾT KẾ &amp; TRUYỀN THÔNG</small>
+                <strong>UI/UX Design &amp; Social Media Marketing</strong>
+              </div>
+            </div>
+            <div class="credential-tags">
+              <span>Đào tạo AI từ cơ bản đến nâng cao</span>
+              <span>AI Agent Bán hàng &amp; CSKH 24/7</span>
+              <span>Sản xuất Video AI &amp; Tự động hóa Nội dung</span>
+              <span>Trợ lý Tri thức nội bộ</span>
+              <span>Tiếng Anh &amp; Tiếng Trung (HSK 2)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10. FAQ: Compact 2-Column Layout -->
+    <section class="section" id="faq">
+      <div class="container faq-layout">
+        <div class="faq-intro" data-reveal>
+          <p class="eyebrow">CÂU HỎI THƯỜNG GẶP</p>
+          <h2>Giải đáp nhanh trước khi bắt đầu</h2>
+          <p>Bạn có thể trao đổi trực tiếp 1:1 cùng Phan Anh để tìm lộ trình phù hợp nhất.</p>
+          <div class="faq-mini-advisor" data-spotlight>
+            <img src="assets/le-phan-anh-seated.jpg" alt="Lê Đình Phan Anh" width="56" height="56">
+            <div>
+              <strong>Trao đổi trực tiếp cùng Phan Anh</strong>
+              <a class="text-link" data-contact="zalo">Nhắn câu hỏi qua Zalo →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-list" data-reveal>
+          <article class="faq-item">
+            <h3><button type="button" aria-expanded="false" aria-controls="faq-1">Doanh nghiệp chưa biết gì về AI thì bắt đầu từ đâu?<span aria-hidden="true">+</span></button></h3>
+            <div id="faq-1" hidden><p>Bắt đầu từ khảo sát các việc tốn thời gian và đào tạo nhân sự dùng AI cơ bản hàng ngày, sau đó mới tự động hóa bằng AI Agent.</p></div>
+          </article>
+          <article class="faq-item">
+            <h3><button type="button" aria-expanded="false" aria-controls="faq-2">AI Agent khác gì so với dùng ChatGPT thông thường?<span aria-hidden="true">+</span></button></h3>
+            <div id="faq-2" hidden><p>ChatGPT cần người gõ lệnh từng bước, còn AI Agent kết nối trực tiếp Zalo, Fanpage, bảng tính để tự làm việc 24/7 và báo kết quả cho bạn duyệt.</p></div>
+          </article>
+          <article class="faq-item">
+            <h3><button type="button" aria-expanded="false" aria-controls="faq-3">Nhân sự không rành công nghệ có dùng được không?<span aria-hidden="true">+</span></button></h3>
+            <div id="faq-3" hidden><p>Hoàn toàn được. Mọi thao tác đều diễn ra ngay trên Zalo, Facebook, Google Sheet quen thuộc mà không cần biết lập trình.</p></div>
+          </article>
+          <article class="faq-item">
+            <h3><button type="button" aria-expanded="false" aria-controls="faq-4">Dữ liệu nội bộ của công ty có được bảo mật không?<span aria-hidden="true">+</span></button></h3>
+            <div id="faq-4" hidden><p>Có. Hệ thống được phân quyền riêng theo phòng ban để bảo vệ tuyệt đối dữ liệu khách hàng và tài liệu nội bộ.</p></div>
+          </article>
+          <article class="faq-item">
+            <h3><button type="button" aria-expanded="false" aria-controls="faq-5">Sau khi triển khai có được hướng dẫn và hỗ trợ tiếp không?<span aria-hidden="true">+</span></button></h3>
+            <div id="faq-5" hidden><p>Phan Anh trực tiếp đào tạo đội ngũ, bàn giao tài liệu hướng dẫn và đồng hành hỗ trợ vận hành lâu dài.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 11. CONTACT: Cruip Open PRO Glowing CTA Banner -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="cruip-cta-box" data-reveal data-spotlight>
+          <p class="eyebrow">BẮT ĐẦU NGAY HÔM NAY</p>
+          <h2>Xây dựng lộ trình AI &amp; AI Agent cho doanh nghiệp của bạn</h2>
+          <p>Liên hệ trực tiếp với Lê Đình Phan Anh để được tư vấn 1:1 giải pháp phù hợp nhất.</p>
+
+          <div class="hero-cta-group">
+            <a class="button button-primary button-large" data-contact="booking">Đặt lịch tư vấn AI</a>
+            <a class="button button-secondary button-large" data-contact="zalo">Nhắn Zalo trực tiếp</a>
+          </div>
+
+          <div class="contact-pills">
+            <a href="tel:0372038569" class="contact-pill"><span>Zalo / SĐT:</span> <strong>0372 038 569</strong></a>
+            <a href="mailto:phananh27103@gmail.com" class="contact-pill"><span>Email:</span> <strong>phananh27103@gmail.com</strong></a>
+            <a href="https://t.me/phanagent" target="_blank" rel="noopener noreferrer" class="contact-pill"><span>Telegram:</span> <strong>@phanagent</strong></a>
+            <a href="https://www.linkedin.com/in/anh-l%C3%AA-phan-99479b224/" target="_blank" rel="noopener noreferrer" class="contact-pill"><span>LinkedIn:</span> <strong>Lê Đình Phan Anh</strong></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand footer-brand" href="#hero">
+          <span class="brand-mark"><img class="brand-avatar" src="assets/le-phan-anh.jpg" alt="" width="38" height="38"></span>
+          <span class="brand-copy"><strong>LÊ ĐÌNH PHAN ANH</strong><small>TƯ VẤN &amp; TRIỂN KHAI AI</small></span>
+        </a>
+        <p>Tư vấn &amp; Triển khai AI Doanh nghiệp · Leader AI tại MYB Media · Nhà sáng lập Hệ thống Trợ lý AI Mybis.</p>
+      </div>
+      <div>
+        <small>LIÊN HỆ TRỰC TIẾP</small>
+        <p>Email: <a href="mailto:phananh27103@gmail.com" data-placeholder="email">phananh27103@gmail.com</a><br>Điện thoại: <a href="tel:0372038569" data-placeholder="phone">0372 038 569</a><br>Zalo: <a href="https://zalo.me/0372038569" target="_blank" rel="noopener noreferrer" data-placeholder="zalo">zalo.me/0372038569</a></p>
+      </div>
+      <div>
+        <small>ĐỊA CHỈ &amp; ĐƠN VỊ</small>
+        <p>Quận Cầu Giấy, Hà Nội · MYB Media · Hệ sinh thái Mybis · Bình Quân · Ebisu Kaze Japan</p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span data-year></span> Lê Đình Phan Anh · All rights reserved.</span>
+      <a href="#hero">Lên đầu trang ↑</a>
+    </div>
+  </footer>
+
+  <div class="mobile-actions" aria-label="Liên hệ nhanh">
+    <a class="button button-secondary" data-contact="zalo">Nhắn Zalo</a>
+    <a class="button button-primary" data-contact="booking">Đặt lịch tư vấn</a>
+  </div>
+
+  <!-- Interactive Booking Calendar Modal -->
+  <div class="booking-modal-backdrop" id="booking-modal" data-booking-modal hidden aria-hidden="true">
+    <div class="booking-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="booking-modal-title">
+      <button type="button" class="booking-modal-close" data-booking-close aria-label="Đóng cửa sổ đặt lịch">
+        <span aria-hidden="true">×</span>
+      </button>
+
+      <div class="booking-modal-grid" data-booking-form-view>
+        <!-- Left Column: Advisor & Session Summary -->
+        <aside class="booking-sidebar">
+          <div class="booking-advisor">
+            <img src="assets/le-phan-anh.jpg" alt="Lê Đình Phan Anh" width="52" height="52">
+            <div>
+              <span class="booking-advisor-badge">1:1 CONSULTATION</span>
+              <strong>Lê Đình Phan Anh</strong>
+              <small>Tư vấn &amp; Triển khai AI · Leader AI tại MYB Media</small>
+            </div>
+          </div>
+
+          <div class="booking-session-info">
+            <h2 id="booking-modal-title">Đặt lịch tư vấn giải pháp AI</h2>
+            <p>Chọn ngày và khung giờ còn trống phù hợp với bạn để trao đổi trực tiếp 1:1 cùng Phan Anh.</p>
+            <ul class="booking-meta-list">
+              <li>
+                <span class="meta-icon" aria-hidden="true">⏱</span>
+                <span><strong>45 phút</strong> · Tư vấn chuyên sâu 1:1</span>
+              </li>
+              <li>
+                <span class="meta-icon" aria-hidden="true">🎥</span>
+                <span><strong>Google Meet / Zalo Call</strong> hoặc trực tiếp tại Hà Nội</span>
+              </li>
+              <li>
+                <span class="meta-icon" aria-hidden="true">🌏</span>
+                <span>Múi giờ: <strong>Việt Nam (GMT+7)</strong></span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="booking-selection-summary" aria-live="polite">
+            <small>LỊCH HẸN ĐANG CHỌN</small>
+            <strong data-summary-date>Đang tải ngày...</strong>
+            <span data-summary-slot>Chưa chọn khung giờ</span>
+          </div>
+
+          <div class="booking-legend" aria-label="Chú thích trạng thái lịch">
+            <span><i class="legend-dot is-open"></i> Còn nhiều ca trống</span>
+            <span><i class="legend-dot is-few"></i> Sắp kín (1–2 ca)</span>
+            <span><i class="legend-dot is-full"></i> Đã kín / Nghỉ</span>
+          </div>
+        </aside>
+
+        <!-- Center Column: Monthly Calendar Picker -->
+        <div class="booking-calendar-pane">
+          <div class="booking-cal-header">
+            <div>
+              <span class="booking-step-tag">BƯỚC 01 · CHỌN NGÀY</span>
+              <h3 data-cal-month-label>Tháng 10, 2026</h3>
+            </div>
+            <div class="booking-cal-nav">
+              <button type="button" class="cal-nav-btn" data-cal-prev aria-label="Tháng trước">←</button>
+              <button type="button" class="cal-nav-btn" data-cal-next aria-label="Tháng sau">→</button>
+            </div>
+          </div>
+
+          <div class="booking-weekdays" aria-hidden="true">
+            <span>T2</span><span>T3</span><span>T4</span><span>T5</span><span>T6</span><span>T7</span><span>CN</span>
+          </div>
+
+          <div class="booking-days-grid" data-cal-days role="grid" aria-label="Lịch chọn ngày tư vấn"></div>
+        </div>
+
+        <!-- Right Column: Time Slots & Quick Details -->
+        <div class="booking-slots-pane">
+          <div class="booking-slots-header">
+            <span class="booking-step-tag">BƯỚC 02 · CHỌN KHUNG GIỜ TRỐNG</span>
+            <h3 data-selected-date-heading>Chọn khung giờ</h3>
+            <p class="booking-slots-status" data-selected-date-sub>Các khung giờ còn trống trong ngày</p>
+          </div>
+
+          <div class="booking-slots-list" data-slots-container role="listbox" aria-label="Danh sách khung giờ"></div>
+
+          <form class="booking-quick-form" data-booking-form>
+            <span class="booking-step-tag">BƯỚC 03 · THÔNG TIN LIÊN HỆ</span>
+            <label class="booking-field">
+              <span>Nội dung cần tư vấn</span>
+              <select name="topic" data-booking-topic>
+                <option value="Tư vấn lộ trình AI & AI Agent tổng thể">Tư vấn lộ trình AI &amp; AI Agent tổng thể</option>
+                <option value="Đào tạo AI thực chiến cho đội ngũ (Cơ bản → Nâng cao)">Đào tạo AI thực chiến cho đội ngũ</option>
+                <option value="Xây dựng AI Agent tự động hóa 24/7 (Zalo/CRM/Vận hành)">Xây dựng AI Agent tự động hóa 24/7</option>
+                <option value="Sản xuất Video AI & Tự động hóa Nội dung">Sản xuất Video AI &amp; Tự động hóa Nội dung</option>
+              </select>
+            </label>
+            <div class="booking-field-row">
+              <label class="booking-field">
+                <span>Họ tên / Doanh nghiệp *</span>
+                <input type="text" name="name" data-booking-name placeholder="VD: Anh Minh - Công ty ABC" required>
+              </label>
+              <label class="booking-field">
+                <span>Số điện thoại / Zalo *</span>
+                <input type="tel" name="phone" data-booking-phone placeholder="VD: 0912 xxx xxx" required>
+              </label>
+            </div>
+            <button type="submit" class="button button-primary booking-submit-btn" data-booking-submit>
+              Xác nhận đặt lịch hẹn
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Confirmation View after Booking -->
+      <div class="booking-success-view" data-booking-success-view hidden>
+        <div class="booking-success-badge" aria-hidden="true">✓</div>
+        <p class="eyebrow">ĐÃ GIỮ CHỖ TRÊN LỊCH</p>
+        <h3>Đặt lịch tư vấn AI thành công!</h3>
+        <p class="booking-success-desc">Khung giờ của bạn đã được đánh dấu giữ chỗ. Hãy gửi mã lịch hẹn dưới đây qua Zalo hoặc thêm vào Google Calendar để Phan Anh xác nhận ngay.</p>
+
+        <div class="booking-ticket" data-booking-ticket>
+          <div class="ticket-row">
+            <span>Người đồng hành:</span>
+            <strong>Lê Đình Phan Anh</strong>
+          </div>
+          <div class="ticket-row">
+            <span>Thời gian hẹn:</span>
+            <strong data-ticket-datetime>—</strong>
+          </div>
+          <div class="ticket-row">
+            <span>Nội dung:</span>
+            <strong data-ticket-topic>—</strong>
+          </div>
+          <div class="ticket-row">
+            <span>Khách hàng:</span>
+            <strong data-ticket-client>—</strong>
+          </div>
+        </div>
+
+        <p class="booking-copy-notice" data-booking-copy-notice>Đã tự động sao chép nội dung đặt lịch vào bộ nhớ tạm (Clipboard).</p>
+
+        <div class="booking-success-actions">
+          <a class="button button-primary button-large" data-ticket-zalo target="_blank" rel="noopener noreferrer">
+            Gửi xác nhận qua Zalo (0372 038 569)
+          </a>
+          <a class="button button-secondary button-large" data-ticket-gcal target="_blank" rel="noopener noreferrer">
+            + Thêm vào Google Calendar
+          </a>
+          <a class="button button-secondary" data-ticket-mailto>
+            Gửi qua Email
+          </a>
+        </div>
+
+        <button type="button" class="booking-reset-link" data-booking-reset>← Chọn lại ngày hoặc khung giờ khác</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
