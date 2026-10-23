@@ -1168,17 +1168,18 @@ main, .site-footer { position: relative; z-index: 1; }
 /* 9. About: Original Content & Layout */
 .about-layout {
   display: grid;
-  grid-template-columns: minmax(320px, 0.82fr) 1.18fr;
-  gap: 64px;
-  align-items: center;
+  grid-template-columns: minmax(320px, 0.85fr) 1.15fr;
+  gap: 54px;
+  align-items: start;
 }
 .portrait-placeholder {
-  position: relative;
+  position: sticky;
+  top: 96px;
   display: flex;
   padding: 26px;
   flex-direction: column;
   justify-content: space-between;
-  gap: 20px;
+  gap: 18px;
   border: 1px solid rgba(99, 102, 241, 0.38);
   border-radius: 24px;
   background:
@@ -1262,39 +1263,77 @@ main, .site-footer { position: relative; z-index: 1; }
   font-family: var(--font-mono);
   font-size: 0.6rem;
 }
+.portrait-stats-grid {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.portrait-stats-grid div {
+  padding: 11px 13px;
+  border: 1px solid rgba(99, 102, 241, 0.28);
+  border-radius: 12px;
+  background: rgba(17, 24, 39, 0.86);
+}
+.portrait-stats-grid strong {
+  display: block;
+  color: var(--ink-bright);
+  font-size: 0.94rem;
+  font-weight: 800;
+}
+.portrait-stats-grid span {
+  display: block;
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: 0.72rem;
+}
 .about-content h2 {
   margin: 0 0 12px;
   font-size: clamp(2.4rem, 4.4vw, 3.8rem);
   line-height: 1.08;
 }
 .about-role {
-  max-width: 580px;
+  max-width: 640px;
   margin: 0 0 16px;
   color: var(--indigo-300);
-  font-size: 1.12rem;
+  font-size: 1.1rem;
   font-weight: 700;
+  line-height: 1.45;
 }
 .about-content > p:not(.eyebrow):not(.about-role) {
-  max-width: 62ch;
+  max-width: 66ch;
+  margin-bottom: 14px;
   color: var(--muted);
-  font-size: 1.02rem;
+  font-size: 0.98rem;
+  line-height: 1.68;
 }
-.principles { display: grid; margin: 28px 0; border-top: 1px solid rgba(55, 65, 81, 0.65); }
+.about-content > p:not(.eyebrow):not(.about-role) strong {
+  color: var(--ink-bright);
+  font-weight: 600;
+}
+.principles { display: grid; margin: 22px 0; border-top: 1px solid rgba(55, 65, 81, 0.65); }
 .principles div {
   display: grid;
-  padding: 15px 0;
+  padding: 14px 0;
   border-bottom: 1px solid rgba(55, 65, 81, 0.65);
-  grid-template-columns: 48px 1fr;
+  grid-template-columns: 44px 1fr;
   gap: 12px;
-  align-items: center;
+  align-items: start;
 }
 .principles span {
+  padding-top: 2px;
   color: var(--indigo-400);
   font-family: var(--font-mono);
   font-size: 0.74rem;
   font-weight: 700;
 }
-.principles strong { color: var(--ink-bright); font-size: 0.96rem; }
+.principles strong {
+  color: var(--ink-2);
+  font-size: 0.92rem;
+  font-weight: 500;
+  line-height: 1.58;
+}
 .credential-placeholder {
   padding: 22px 24px;
   border: 1px solid rgba(99, 102, 241, 0.38);
@@ -2102,7 +2141,7 @@ body.is-modal-open {
   .workflow-card.compact { grid-column: span 3; }
   .about-layout,
   .faq-layout { grid-template-columns: 1fr; gap: 36px; }
-  .portrait-placeholder { max-width: 520px; min-height: 460px; }
+  .portrait-placeholder { position: relative; top: auto; max-width: 520px; min-height: 460px; }
 }
 
 @media (max-width: 768px) {
