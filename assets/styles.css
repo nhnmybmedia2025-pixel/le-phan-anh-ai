@@ -1294,12 +1294,17 @@ main, .site-footer { position: relative; z-index: 1; }
   line-height: 1.08;
 }
 .about-role {
+  display: grid;
+  gap: 7px;
   max-width: 640px;
-  margin: 0 0 16px;
+  margin: 0 0 18px;
   color: var(--indigo-300);
-  font-size: 1.1rem;
+  font-size: 1.06rem;
   font-weight: 700;
   line-height: 1.45;
+}
+.about-role span {
+  display: block;
 }
 .about-content > p:not(.eyebrow):not(.about-role) {
   max-width: 66ch;
