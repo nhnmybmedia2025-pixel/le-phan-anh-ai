@@ -2,6 +2,11 @@
 <html lang="vi">
 <head>
   <meta charset="utf-8">
+  <script>
+    if (location.protocol === 'http:' && location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
+      location.replace('https://' + location.host + location.pathname + location.search + location.hash);
+    }
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Lê Đình Phan Anh — Tư vấn các giải pháp AI cho doanh nghiệp, đào tạo từ cơ bản đến nâng cao và triển khai hệ thống AI Agent tự động hóa 24/7.">
   <meta name="theme-color" content="#030712">
