@@ -5,19 +5,19 @@ document.documentElement.classList.add('js');
 
 const SYSTEM_FLOWS = {
   sales: {
-    code: 'TRỤ CỘT 01 · AUTONOMOUS EXECUTION 24/7',
-    sources: ['crm', 'apps'],
-    text: 'Đội ngũ 10+ AI Agent tự kết nối API, săn tin, xử lý ảnh/video, xuất bản nội dung, trực inbox báo cọc VietQR, thu Lead và gửi báo cáo điều hành.'
+    code: 'CẤP ĐỘ 01 · ỨNG DỤNG AI CƠ BẢN',
+    sources: ['crm'],
+    text: 'Hướng dẫn đội ngũ sử dụng thành thạo công cụ AI để soạn thảo, tổng hợp thông tin và xử lý việc hàng ngày nhanh gấp nhiều lần.'
   },
   marketing: {
-    code: 'TRỤ CỘT 02 · COMPOUNDING SECOND BRAIN (540+ FACTS)',
+    code: 'CẤP ĐỘ 02 · CHUẨN HÓA NÂNG CAO',
     sources: ['crm', 'docs'],
-    text: 'Mọi quy trình SOP, kịch bản bán hàng, số liệu quảng cáo và chỉ đạo của lãnh đạo được chưng cất vào bộ nhớ dài hạn 3 lớp, giúp AI ngày càng thông minh.'
+    text: 'Xây dựng bộ câu lệnh chuẩn, trợ lý tri thức nội bộ và quy trình sản xuất nội dung/video AI cho từng phòng ban.'
   },
   operations: {
-    code: 'TRỤ CỘT 03 · SELF-HEALING KEEPALIVE & ĐA KÊNH',
+    code: 'CẤP ĐỘ 03 · AI AGENT TỰ ĐỘNG 24/7',
     sources: ['crm', 'docs', 'apps'],
-    text: 'Vận hành bền bỉ 24/7 trên hạ tầng doanh nghiệp kết hợp Cloudflare Workers, Meta Graph API, Zalo/Telegram/Lark Gateway với cơ chế tự giám sát và hồi sinh tiến trình.'
+    text: 'Triển khai các AI Agent kết nối trực tiếp Zalo, Fanpage, bảng tính để tự động chăm sóc khách hàng, làm báo cáo và nhắc việc 24/7.'
   }
 };
 
